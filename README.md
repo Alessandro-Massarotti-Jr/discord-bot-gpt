@@ -10,7 +10,7 @@
 
 Bot de discord integrado a API do chat-gpt
 
-<img src="./screenshot.png" alt="screenshot">
+<img src="./gpt.gif" alt="screenshot">
 
 
 ## config
