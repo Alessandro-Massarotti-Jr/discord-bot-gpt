@@ -1,7 +1,7 @@
 import { CacheType, ChatInputCommandInteraction, SlashCommandBuilder } from "discord.js";
-import { ICommandInterface } from "./ICommandInterface";
+import { CommandInterface } from "../CommandInterface";
 
-const pingCommand: ICommandInterface = {
+const pingCommand: CommandInterface = {
     data: new SlashCommandBuilder()
         .setName("ping")
         .setDescription("Responde com 'Pong!"),
@@ -11,4 +11,4 @@ const pingCommand: ICommandInterface = {
     }
 }
 
-export { pingCommand }
+export { pingCommand as command }

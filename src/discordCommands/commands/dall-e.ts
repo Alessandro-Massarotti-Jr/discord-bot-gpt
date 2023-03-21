@@ -1,8 +1,8 @@
 import { CacheType, ChatInputCommandInteraction, EmbedBuilder, SlashCommandBuilder } from "discord.js"
-import { sendImage } from "../services/dall-e/sendImage";
-import { ICommandInterface } from "./ICommandInterface";
+import { sendImage } from "../../services/dall-e/sendImage";
+import { CommandInterface } from "../CommandInterface";
 
-const dallECommand: ICommandInterface = {
+const dallECommand: CommandInterface = {
 
     data: new SlashCommandBuilder()
         .setName("dall-e")
@@ -27,4 +27,4 @@ const dallECommand: ICommandInterface = {
     }
 }
 
-export { dallECommand }
+export { dallECommand as command }

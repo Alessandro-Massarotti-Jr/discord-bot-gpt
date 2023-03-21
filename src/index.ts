@@ -1,10 +1,13 @@
 import { Client, Events, GatewayIntentBits, REST, Routes } from 'discord.js';
 import dotenv from "dotenv";
-import { commands } from './commands';
+import { commands } from './discordCommands';
 dotenv.config();
+
+
 
 const { DISCORD_TOKEN, DISCORD_APP_ID } = process.env
 const client = new Client({ intents: [GatewayIntentBits.Guilds] })
+
 
 client.once(Events.ClientReady, c => {
     console.log(`Pronto! Login realizado como ${c.user.tag}`)

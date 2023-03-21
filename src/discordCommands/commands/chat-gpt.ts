@@ -1,8 +1,8 @@
 import { CacheType, ChatInputCommandInteraction, EmbedBuilder, SlashCommandBuilder } from "discord.js"
-import { sendMessage } from "../services/chatGPT/sendMessageService";
-import { ICommandInterface } from "./ICommandInterface";
+import { sendMessage } from "../../services/chatGPT/sendMessageService";
+import { CommandInterface } from "../CommandInterface";
 
-const chatGptCommand: ICommandInterface = {
+const chatGptCommand: CommandInterface = {
 
     data: new SlashCommandBuilder()
         .setName("chat-gpt")
@@ -27,4 +27,4 @@ const chatGptCommand: ICommandInterface = {
     }
 }
 
-export { chatGptCommand }
+export { chatGptCommand as command }
