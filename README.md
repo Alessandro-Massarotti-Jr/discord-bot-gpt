@@ -8,9 +8,16 @@
   <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/alessandro-massarotti-Jr/discord-bot-gpt?color=6d429b&style=flat-square">
 </p>
 
-Bot de discord integrado a API do chat-gpt
+Bot de discord integrado a APIs da Openai
 
-<img src="./gpt.gif" alt="screenshot">
+
+## Chat-GPT
+
+<img src="./gpt.gif" alt="gpt">
+
+## Dall-e
+
+<img src="./dall-e.gif" alt="dall-e">
 
 
 ## config
